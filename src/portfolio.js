@@ -234,13 +234,13 @@ const bigProjects = {
       ]
     }, 
     {
-      image: require("./assets/images/greenTopLogo.webp"),
-      projectName: "Green Top Group",
-      projectDesc: "Desgin and built company webpage for the startup company using HTML, Javascript, CSS3",
+      image: require("./assets/images/socialAppLogo.webp"),
+      projectName: "Social App Clone",
+      projectDesc: "Built social app webpage With React, Firebase && Chakra UI",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://www.greentopgroup.com/"
+          url: "https://social-app-codebycindy.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
