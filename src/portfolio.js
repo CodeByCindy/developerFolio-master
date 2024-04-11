@@ -25,7 +25,7 @@ const greeting = {
   subTitle:  "A dedicated Full Stack Software Developer with expertise in building Web and Mobile applications using Python, SQL, JavaScript, Reactjs, Nodejs, React Native, and machine learning with libraries like TensorFlow and sklearn. Passionate about transforming ideas into innovative solutions."
 ,
   resumeLink:
-    "https://resume.creddle.io/resume/3rmvt2kwzqv", // Set to empty to hide the button
+    "https://resume.creddle.io/resume/bz7ld2ytfvw", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
