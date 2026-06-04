@@ -44,14 +44,6 @@ export default function Contact() {
                   <br />
                 </>
               )} */}
-              <a
-                className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
-              >
-                "info@codestellar.com"
-              </a>
-              <br />
-              <br />
               <SocialMedia />
             </div>
           </div>

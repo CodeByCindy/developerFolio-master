@@ -21,11 +21,10 @@ const illustration = {
 
 const greeting = {
   username: "Peichun Huang - Cindy",
-  title: `Welcome to my Portfolio, I'm Peichun`,
-  subTitle:  "A dedicated Full Stack Software Developer with expertise in building Web and Mobile applications using Python, SQL, JavaScript, Reactjs, Nodejs, React Native, and machine learning with libraries like TensorFlow and sklearn. Passionate about transforming ideas into innovative solutions."
+  title: `Welcome to my Portfolio, I'm Peichun (Cindy)`,
+  subTitle:  "Systems Test and Automation Engineer with 8+ years of experience spanning semiconductor manufacturing, wireless communications, and AI server platforms. I build Python automation tools, monitoring systems, and internal web applications that support high-volume production and manufacturing test operations — with hands-on expertise in Linux-based system validation, hardware-software integration, root-cause analysis, and cross-functional engineering collaboration. Now targeting systems integration, systems engineering, and system test roles in the robotics and AI industry."
 ,
-  resumeLink:
-    "https://resume.creddle.io/resume/bz7ld2ytfvw", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -41,13 +40,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER EXPLORING EVERY TECH STACK",
+  subTitle: "SYSTEMS TEST & AUTOMATION ENGINEER BRIDGING HARDWARE, SOFTWARE, AND TEST",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build Python automation tools, monitoring systems, and watchdogs for high-volume production and test operations"
     ),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Perform server-level and rack-level testing, hardware-software integration, and Linux-based system validation"
+    ),
+    emoji(
+      "⚡ Drive root-cause analysis and log analysis to improve test coverage, reliability, and manufacturing stability"
     )
   ],
 
@@ -56,12 +58,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "bash scripting",
+      fontAwesomeClassname: "fas fa-terminal"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "JavaScript",
@@ -72,24 +82,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "git/github",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -103,20 +101,21 @@ const educationInfo = {
     {
       schoolName: "Carnegie Mellon University",
       logo: require("./assets/images/CarnegieMellonLogo.png"),
-      subHeader: "Master of Science in Information Technology - Information Security",
-      desc: "Participated in the research of designing encryption mechanisms for enhancing Security and Privacy of Network.",
+      subHeader: "M.S. in Information Technology (Information Security)",
+      desc: "Focused on network security, system validation, and secure infrastructure.",
       descBullets: [
-        "Awarded the scholarship for full tuition based on academic merit.",
+        "Awarded a Full-Tuition Merit Scholarship based on academic merit.",
       ]
     },
-    // {
-    //   schoolName: "National Taiwan Normal University",
-    //   logo: require("./assets/images/TaiwanUniLogo.png"),
-    //   subHeader: "Bachelor of Science in Computer Science and Information Engineering",
-    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Network Security, Operating Systems, ...",
-    //   descBullets: [
-    //     "Conference Paper: Comparison of Different Retrieval Models in Content-Based Music Retrieval, International Workshop on Computer Music and Audio, 2006."]
-    // }
+    {
+      schoolName: "National Taiwan Normal University",
+      logo: require("./assets/images/TaiwanUniLogo.png"),
+      subHeader: "B.S. in Information and Computer Education",
+      desc: "Built a foundation in software engineering, systems, and computer science.",
+      descBullets: [
+        "Co-author, BMC Genomics (journal publication).",
+      ]
+    }
   ]
 };
 
@@ -124,18 +123,18 @@ const educationInfo = {
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [,
+  experience: [
     {
-      Stack: "Programming",
-      progressPercentage: "82%"
+      Stack: "Python & Test Automation",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "82%"
+      Stack: "System Validation & Integration",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "75%" //Insert relative proficiency in percentage
+      Stack: "Web / Internal Tools (React, JS)", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -147,47 +146,64 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Software Developer",
-      company: "Freelancer ",
-      companylogo: require("./assets/images/freeLancerLogo.png"),
-      date: "Jan 2024 – Present",
-      desc: "Developed and maintained web applications with a focus on React, Redux, and React Native.. Worked with clients to identify and define project requirements, scope, and objectives. "
+      role: "Test Engineer",
+      company: "Hyve Solutions",
+      companylogo: require("./assets/images/hyveLogo.png"),
+      date: "Jun 2025 – Present",
+      desc: "Server- and rack-level testing for data center / AI server platforms — diagnosing failures across hardware, software, and Linux systems.",
+      descBullets: [
+        "Execute server- and rack-level testing for data center platforms, diagnosing failures across hardware, software, Linux systems, and test environments.",
+        "Analyze test logs, telemetry, and production data to identify root causes, strengthen test coverage, and improve manufacturing test stability.",
+        "Develop Python automation tools and internal web applications that streamline operator workflows and increase production efficiency.",
+        "Proposed adding system build information to test records, reducing troubleshooting time for repair technicians by ~50%.",
+        "Partner with Product Engineering, Failure Analysis, and Manufacturing teams to resolve complex system-level issues, support NPI, and drive corrective actions."
+      ]
     },
     {
-      role: "IT Assurance",
-      company: "PricewaterhouseCoopers",
-      companylogo: require("./assets/images/pwcLogo.png"),
-      date: "Jan 2022 – Nov 2023",
-      desc: "Conducted testing for the accounting business applications, identified key reports and provide assurance over key IT controls to helping businesses mitigate regulatory and compliance risks, optimize control activities."
+      role: "Cellular Test Engineer",
+      company: "Sawtest Solution",
+      companylogo: require("./assets/images/sawtestLogo.png"),
+      date: "2014 – 2015",
+      desc: "System-level wireless validation and 3GPP conformance testing in Germany.",
+      descBullets: [
+        "Performed system-level 2G/3G/4G wireless validation and 3GPP conformance testing for product reliability and pre-release verification.",
+        "Conducted deep log analysis of wireless communication failures, identifying root causes across protocol, connectivity, and system-level interactions."
+      ]
     },
     {
-      role: "Data Scientist",
-      company: "Metis",
-      companylogo: require("./assets/images/metisLogo.png"),
-      date: "Sep 2021 – Dec 2021",
-      desc: "Successfully completed Metis' Data Science and Engineering Bootcamp, where I gained expertise in Python programming, statistical modeling, machine learning, data visualization, project design, and effective communication."
+      role: "System Test Engineer",
+      company: "Taiwan Semiconductor Manufacturing Company (TSMC)",
+      companylogo: require("./assets/images/tsmcLogo.png"),
+      date: "2012 – 2014",
+      desc: "Automation and monitoring for 24/7 semiconductor manufacturing operations.",
+      descBullets: [
+        "Developed Python automation tools for equipment monitoring and data collection, improving manufacturing visibility and reducing defect rates.",
+        "Created watchdog and monitoring systems supporting 24/7 production operations, improving infrastructure reliability from 97% to 99.7%.",
+        "Performed validation and troubleshooting of manufacturing systems, analyzing operational data to improve system reliability and process stability."
+      ]
     },
     {
-      role: "Technical Project Manager",
-      company: "Industrial Research Institute of Technology",
+      role: "Software Engineer in Test",
+      company: "Ubiquiti Networks",
+      companylogo: require("./assets/images/ubiquitiLogo.png"),
+      date: "2010 – 2012",
+      desc: "Backend monitoring and automation for wireless networking products.",
+      descBullets: [
+        "Developed backend monitoring systems, network configuration tools, and automation frameworks for wireless networking products.",
+        "Built software tools supporting system diagnostics, reliability testing, and production troubleshooting.",
+        "Collaborated with hardware and software teams to investigate complex networking and system integration issues."
+      ]
+    },
+    {
+      role: "Project Manager",
+      company: "Industrial Technology Research Institute (ITRI)",
       companylogo: require("./assets/images/itriLogo.png"),
-      date: "May 2016 – Oct 2018",
-      desc: "Led cross-functional teams in supporting small businesses in Taiwan through digital transformation initiatives. Our efforts resulted in the successful acquisition of 52 million in national funding over a four-year period."
-    },
-    // {
-    //   role: "Test Engineer",
-    //   company: "SAWTEST",
-    //   companylogo: require("./assets/images/sawtestLogo.png"),
-    //   date: "May 2016 – Oct 2018",
-    //   desc: "Conducted comprehensive 2G, 3G, and 4G tests using 3GPP global standards and utilized script languages to parse logs and identify standard compliance issues, detecting major bugs before release."
-    // },
-    // {
-    //   role: "System Engineer",
-    //   company: "TSMC",
-    //   companylogo: require("./assets/images/tsmcLogo.png"),
-    //   date: "May 2012 – Aug 2015",
-    //   desc: "Leveraged my expertise in scripting to develop automated tools for analyzing process data and implemented statistical process control techniques to proactively monitor equipment downtime. This initiative successfully led to a 10-15% annual reduction in wafer defect rates."
-    // },
+      date: "",
+      desc: "Cross-functional technology project coordination.",
+      descBullets: [
+        "Coordinated cross-functional technology projects, supporting system planning, requirements definition, and CI/CD implementation across engineering teams."
+      ]
+    }
   ]
 };
 
@@ -231,18 +247,6 @@ const bigProjects = {
           name: "GitHub",
           url: "https://github.com/CodeByCindy/eShop"
         }
-      ]
-    }, 
-    {
-      image: require("./assets/images/socialAppLogo.webp"),
-      projectName: "Social App Clone",
-      projectDesc: "Built social app webpage With React, Firebase && Chakra UI",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://social-app-codebycindy.vercel.app/"
-        }
-        //  you can add extra buttons here.
       ]
     },
   ],
@@ -343,7 +347,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Hello! I am excited to be part of a team who share the same dedication to create impactful solutions and to learn from various perspectives. I'm looking forward to do creative projects with you! Feel free to contact me!", 
+    "Hello! I'm exploring systems integration, systems engineering, and system test roles in the robotics and AI space, and I'd love to connect with teams building impactful hardware-software systems. Feel free to reach out!",
   email_address: "cindy.psu.h@gmail.com"
 };
 
@@ -351,7 +355,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
