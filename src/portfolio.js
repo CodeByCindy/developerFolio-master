@@ -22,7 +22,7 @@ const illustration = {
 const greeting = {
   username: "Peichun Huang - Cindy",
   title: `Welcome to my Portfolio, I'm Peichun (Cindy)`,
-  subTitle:  "Systems Test and Automation Engineer with 8+ years of experience spanning semiconductor manufacturing, wireless communications, and AI server platforms. I build Python automation tools, monitoring systems, and internal web applications that support high-volume production and manufacturing test operations — with hands-on expertise in Linux-based system validation, hardware-software integration, root-cause analysis, and cross-functional engineering collaboration. Now targeting systems integration, systems engineering, and system test roles in the robotics and AI industry."
+  subTitle:  "Systems Test Engineer with a track record of improving test operations in semiconductor, wireless, and AI server environments. At Hyve Solutions, reduced test cycle time by 50% and raised first-pass yield by 35% through automation and process improvements. Strong background in Python scripting, Linux system validation, and hardware-software integration, with a consistent pattern of turning production problems into scalable fixes and communicating findings across engineering and operations teams."
 ,
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -152,11 +152,11 @@ const workExperiences = {
       date: "Jun 2025 – Present",
       desc: "Server- and rack-level testing for data center / AI server platforms — diagnosing failures across hardware, software, and Linux systems.",
       descBullets: [
-        "Execute server- and rack-level testing for data center platforms, diagnosing failures across hardware, software, Linux systems, and test environments.",
-        "Analyze test logs, telemetry, and production data to identify root causes, strengthen test coverage, and improve manufacturing test stability.",
-        "Develop Python automation tools and internal web applications that streamline operator workflows and increase production efficiency.",
-        "Proposed adding system build information to test records, reducing troubleshooting time for repair technicians by ~50%.",
-        "Partner with Product Engineering, Failure Analysis, and Manufacturing teams to resolve complex system-level issues, support NPI, and drive corrective actions."
+        "Defined test strategies and plans for new product launches, cutting testing time by 50% through an improved test flow.",
+        "Designed automation check scripts that raised first pass yield by 35% by catching recurring defects earlier in the line.",
+        "Reviewed repair workflow capacity and proposed process changes that cut technician troubleshooting time by roughly 50%.",
+        "Performed root cause analysis on complex production failures, coordinating across Product Engineering, Failure Analysis, and test operations to drive resolution and corrective actions.",
+        "Developed Python tools and internal web applications that automate operator workflows and reduce manual work, improving production efficiency."
       ]
     },
     {
