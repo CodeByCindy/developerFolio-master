@@ -12,7 +12,7 @@ export default function Footer() {
           Languages: Mandarin (Native) &nbsp;•&nbsp; English (Proficient) &nbsp;•&nbsp; Japanese (Conversational) &nbsp;•&nbsp; German (Conversational)
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Peichun Huang © 2026   <></>
+          Pei Chun Huang © 2026   <></>
           <a href="/"><img src={require("../../assets/images/logo-64x64.png")} alt="cindy" /></a>
         </p>
 

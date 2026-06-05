@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Peichun Huang",
-  title: `Welcome to my Portfolio, I'm Peichun`,
+  username: "Pei Chun Huang",
+  title: `Welcome to my Portfolio, I'm Pei Chun`,
   subTitle:  "Systems Test Engineer with a track record of improving test operations in semiconductor, wireless, and AI server environments. At Hyve Solutions, reduced test cycle time by 50% and raised first-pass yield by 35% through automation and process improvements. Strong background in Python scripting, Linux system validation, and hardware-software integration, with a consistent pattern of turning production problems into scalable fixes and communicating findings across engineering and operations teams."
 ,
   resumeLink: "", // Set to empty to hide the button
