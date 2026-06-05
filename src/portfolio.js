@@ -195,10 +195,10 @@ const workExperiences = {
       ]
     },
     {
-      role: "Project Manager",
+      role: "Technical Project Manager",
       company: "Industrial Technology Research Institute (ITRI)",
       companylogo: require("./assets/images/itriLogo.png"),
-      date: "",
+      date: "2016 – 2018",
       desc: "Cross-functional technology project coordination.",
       descBullets: [
         "Coordinated cross-functional technology projects, supporting system planning, requirements definition, and CI/CD implementation across engineering teams."
