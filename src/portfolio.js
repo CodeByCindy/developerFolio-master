@@ -346,8 +346,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Hello! I'm exploring systems integration, systems engineering, and system test roles in the robotics and AI space, and I'd love to connect with teams building impactful hardware-software systems. Feel free to reach out!",
+  subtitle: "",
   email_address: "cindy.psu.h@gmail.com"
 };
 

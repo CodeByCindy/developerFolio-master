@@ -9,10 +9,13 @@ export default function Footer() {
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          CodeByCindy © copyright 2024   <></> 
+          Languages: Mandarin (Native) &nbsp;•&nbsp; English (Proficient) &nbsp;•&nbsp; Japanese (Conversational) &nbsp;•&nbsp; German (Conversational)
+        </p>
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          CodeByCindy © copyright 2026   <></>
           <a href="/"><img src={require("../../assets/images/logo-64x64.png")} alt="cindy" /></a>
         </p>
-      
+
       </div>
     </Fade>
   );
