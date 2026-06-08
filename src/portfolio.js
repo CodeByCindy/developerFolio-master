@@ -43,13 +43,13 @@ const skillsSection = {
   subTitle: "SYSTEMS TEST & AUTOMATION ENGINEER BRIDGING HARDWARE, SOFTWARE, AND TEST",
   skills: [
     emoji(
-      "⚡ Build Python automation tools, monitoring systems, and watchdogs for high-volume production and test operations"
+      "⚡ Validate and integrate AI server platforms — GPUs, BMC/IPMI interfaces, hardware-software integration, and Linux-based system validation"
     ),
     emoji(
-      "⚡ Perform server-level and rack-level testing, hardware-software integration, and Linux-based system validation"
+      "⚡ Build Python automation tools, Node.js web applications, and monitoring systems for production and test operations"
     ),
     emoji(
-      "⚡ Drive root-cause analysis and log analysis to improve test coverage, reliability, and manufacturing stability"
+      "⚡ Drive root-cause analysis and log analysis to improve test coverage, reliability, and platform stability"
     )
   ],
 
@@ -76,6 +76,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node-js"
     },
     {
       skillName: "reactjs",
@@ -146,52 +150,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Test Engineer",
+      role: "Test Engineer | AI Server & Systems Validation",
       company: "Hyve Solutions",
       companylogo: require("./assets/images/hyveLogo.png"),
       date: "Jun 2025 – Present",
-      desc: "Server- and rack-level testing for data center / AI server platforms — diagnosing failures across hardware, software, and Linux systems.",
+      desc: "Validation and integration of AI server platforms in production — across hardware, Linux systems, GPUs, BMC/IPMI interfaces, and test infrastructure.",
       descBullets: [
-        "Defined test strategies and plans for new product launches, cutting testing time by 50% through an improved test flow.",
-        "Designed automation check scripts that raised first pass yield by 35% by catching recurring defects earlier in the line.",
-        "Reviewed repair workflow capacity and proposed process changes that cut technician troubleshooting time by roughly 50%.",
-        "Performed root cause analysis on complex production failures, coordinating across Product Engineering, Failure Analysis, and test operations to drive resolution and corrective actions.",
-        "Developed Python tools and internal web applications that automate operator workflows and reduce manual work, improving production efficiency."
+        "Support validation and integration of AI server platforms in production environments, diagnosing issues across hardware, Linux systems, GPUs, BMC/IPMI interfaces, and test infrastructure.",
+        "Defined test strategies and improved test flow for new product launches, cutting testing time by 50% and raising first pass yield by 35% through automation check scripts.",
+        "Analyze system logs, production data, and failure patterns to identify root causes, improve platform reliability, and strengthen validation coverage.",
+        "Identified a repair workflow gap and implemented system build tracking within test records, reducing troubleshooting time by approximately 50%.",
+        "Developed Python automation tools and Node.js web applications that streamline operational workflows and improve engineering productivity."
       ]
     },
     {
-      role: "Cellular Test Engineer",
-      company: "Sawtest Solution",
-      companylogo: require("./assets/images/sawtestLogo.png"),
-      date: "2014 – 2015",
-      desc: "System-level wireless validation and 3GPP conformance testing in Germany.",
+      role: "IT Audit Associate",
+      company: "PricewaterhouseCoopers (PwC)",
+      companylogo: require("./assets/images/pwcLogo.png"),
+      date: "2022 – 2023",
+      desc: "IT controls and business systems audit in San Jose, CA.",
       descBullets: [
-        "Performed system-level 2G/3G/4G wireless validation and 3GPP conformance testing for product reliability and pre-release verification.",
-        "Conducted deep log analysis of wireless communication failures, identifying root causes across protocol, connectivity, and system-level interactions."
-      ]
-    },
-    {
-      role: "System Test Engineer",
-      company: "Taiwan Semiconductor Manufacturing Company (TSMC)",
-      companylogo: require("./assets/images/tsmcLogo.png"),
-      date: "2012 – 2014",
-      desc: "Automation and monitoring for 24/7 semiconductor manufacturing operations.",
-      descBullets: [
-        "Developed Python automation tools for equipment monitoring and data collection, improving manufacturing visibility and reducing defect rates.",
-        "Created watchdog and monitoring systems supporting 24/7 production operations, improving infrastructure reliability from 97% to 99.7%.",
-        "Performed validation and troubleshooting of manufacturing systems, analyzing operational data to improve system reliability and process stability."
-      ]
-    },
-    {
-      role: "Software Engineer in Test",
-      company: "Ubiquiti Networks",
-      companylogo: require("./assets/images/ubiquitiLogo.png"),
-      date: "2010 – 2012",
-      desc: "Backend monitoring and automation for wireless networking products.",
-      descBullets: [
-        "Developed backend monitoring systems, network configuration tools, and automation frameworks for wireless networking products.",
-        "Built software tools supporting system diagnostics, reliability testing, and production troubleshooting.",
-        "Collaborated with hardware and software teams to investigate complex networking and system integration issues."
+        "Evaluated IT controls and business systems, supporting process analysis and cross-functional coordination."
       ]
     },
     {
@@ -201,7 +180,41 @@ const workExperiences = {
       date: "2016 – 2018",
       desc: "Cross-functional technology project coordination.",
       descBullets: [
-        "Coordinated cross-functional technology projects, supporting system planning, requirements definition, and CI/CD implementation across engineering teams."
+        "Coordinated technology projects involving system integration, requirements definition, and deployment planning."
+      ]
+    },
+    {
+      role: "Test Engineer – Cellular & Wireless Systems",
+      company: "Sawtest Solution",
+      companylogo: require("./assets/images/sawtestLogo.png"),
+      date: "2014 – 2015",
+      desc: "System-level wireless validation and 3GPP conformance testing in Germany.",
+      descBullets: [
+        "Executed system-level validation and protocol conformance testing for 2G, 3G, and 4G wireless devices following 3GPP standards.",
+        "Developed automated test and log-analysis solutions to identify communication issues and improve product reliability."
+      ]
+    },
+    {
+      role: "Test Engineer",
+      company: "Taiwan Semiconductor Manufacturing Company (TSMC)",
+      companylogo: require("./assets/images/tsmcLogo.png"),
+      date: "2012 – 2014",
+      desc: "Automation and monitoring for 24/7 semiconductor manufacturing operations.",
+      descBullets: [
+        "Developed Python automation and monitoring solutions supporting manufacturing systems and Linux server infrastructure used by engineering teams.",
+        "Built watchdog and health-monitoring tools integrated with IBM WebSphere and MES environments, tracking CPU, memory, disk utilization, and SQL response performance.",
+        "Improved system reliability from 97% to 99.7% through proactive monitoring, validation, and operational troubleshooting."
+      ]
+    },
+    {
+      role: "Software Engineer in Test",
+      company: "Ubiquiti Networks",
+      companylogo: require("./assets/images/ubiquitiLogo.png"),
+      date: "2010 – 2012",
+      desc: "Backend automation and validation for wireless networking products.",
+      descBullets: [
+        "Developed backend web applications for configuring and managing enterprise wireless networking environments.",
+        "Designed automation and validation frameworks supporting hardware-software integration, system diagnostics, and product reliability."
       ]
     }
   ]
