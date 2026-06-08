@@ -359,7 +359,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "",
+  subtitle: "Feel free to reach out — I'm always happy to connect.",
   email_address: "cindy.psu.h@gmail.com"
 };
 

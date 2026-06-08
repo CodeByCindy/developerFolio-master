@@ -32,18 +32,18 @@ export default function Contact() {
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
             >
-              {/* {contactInfo.number && (
+              {contactInfo.email_address && (
                 <>
                   <a
                     className="contact-detail"
-                    href={"tel:" + contactInfo.number}
+                    href={"mailto:" + contactInfo.email_address}
                   >
-                    {contactInfo.number}
+                    {contactInfo.email_address}
                   </a>
                   <br />
                   <br />
                 </>
-              )} */}
+              )}
               <SocialMedia />
             </div>
           </div>
