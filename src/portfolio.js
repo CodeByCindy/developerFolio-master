@@ -163,6 +163,16 @@ const workExperiences = {
       ]
     },
     {
+      role: "Software Engineer (Freelance)",
+      company: "Freelance",
+      companylogo: require("./assets/images/freeLancerLogo.png"),
+      date: "2024 – 2025",
+      desc: "Full-stack web development for a greentech business.",
+      descBullets: [
+        "Designed, built, and deployed a full-stack web application for a greentech business end to end using React and Node.js — owning requirements, development, and launch."
+      ]
+    },
+    {
       role: "IT Audit Associate",
       company: "PricewaterhouseCoopers (PwC)",
       companylogo: require("./assets/images/pwcLogo.png"),
