@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Pei Chun Huang",
-  title: `Welcome to my Portfolio, I'm Pei Chun`,
+  title: `Welcome to my Portfolio, I'm Cindy`,
   subTitle:  "Systems test engineer with 8+ years developing test, automation, and failure-analysis solutions across AI server, semiconductor, and wireless manufacturing environments. Tests AI server platforms in high-volume production at Hyve across new product introduction (NPI) and sustaining phases, and built manufacturing-systems automation and monitoring at TSMC. Strong in manufacturing test development, hardware and software integration testing, failure analysis, and Python test automation."
 ,
   resumeLink: "", // Set to empty to hide the button
