@@ -163,16 +163,6 @@ const workExperiences = {
       ]
     },
     {
-      role: "Web Developer",
-      company: "Freelance",
-      companylogo: require("./assets/images/freeLancerLogo.png"),
-      date: "2024 – 2025",
-      desc: "End-to-end web development for a greentech business.",
-      descBullets: [
-        "Designed, built, and deployed a company website for a greentech business end to end, owning requirements through launch."
-      ]
-    },
-    {
       role: "IT Audit Associate",
       company: "PricewaterhouseCoopers (PwC)",
       companylogo: require("./assets/images/pwcLogo.png"),
