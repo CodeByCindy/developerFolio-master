@@ -22,7 +22,7 @@ const illustration = {
 const greeting = {
   username: "Pei Chun Huang",
   title: `Welcome to my Portfolio, I'm Pei Chun`,
-  subTitle:  "Systems Test Engineer with a track record of improving test operations in semiconductor, wireless, and AI server environments. At Hyve Solutions, reduced test cycle time by 50% and raised first-pass yield by 35% through automation and process improvements. Strong background in Python scripting, Linux system validation, and hardware-software integration, with a consistent pattern of turning production problems into scalable fixes and communicating findings across engineering and operations teams."
+  subTitle:  "Systems test engineer with 8+ years developing test, automation, and failure-analysis solutions across AI server, semiconductor, and wireless manufacturing environments. Tests AI server platforms in high-volume production at Hyve across new product introduction (NPI) and sustaining phases, and built manufacturing-systems automation and monitoring at TSMC. Strong in manufacturing test development, hardware and software integration testing, failure analysis, and Python test automation."
 ,
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -43,13 +43,13 @@ const skillsSection = {
   subTitle: "SYSTEMS TEST & AUTOMATION ENGINEER BRIDGING HARDWARE, SOFTWARE, AND TEST",
   skills: [
     emoji(
-      "⚡ Validate and integrate AI server platforms — GPUs, BMC/IPMI interfaces, hardware-software integration, and Linux-based system validation"
+      "⚡ Manufacturing and system-level test — test development, automated test programs, and hardware/software integration testing across AI & GPU server platforms"
     ),
     emoji(
-      "⚡ Build Python automation tools, Node.js web applications, and monitoring systems for production and test operations"
+      "⚡ Validate AI & GPU server platforms at PCBA and system level, with BMC/IPMI/ILOM, fault management, and Linux in high-volume production"
     ),
     emoji(
-      "⚡ Drive root-cause analysis and log analysis to improve test coverage, reliability, and platform stability"
+      "⚡ Build Python automation, Node.js dashboards, and monitoring tools, driving failure analysis and root cause across test workflows"
     )
   ],
 
@@ -105,7 +105,7 @@ const educationInfo = {
     {
       schoolName: "Carnegie Mellon University",
       logo: require("./assets/images/CarnegieMellonLogo.png"),
-      subHeader: "M.S. in Information Technology (Information Security)",
+      subHeader: "M.S. in Information Technology & Information Security",
       desc: "Focused on network security, system validation, and secure infrastructure.",
       descBullets: [
         "Awarded a Full-Tuition Merit Scholarship based on academic merit.",
@@ -114,7 +114,7 @@ const educationInfo = {
     {
       schoolName: "National Taiwan Normal University",
       logo: require("./assets/images/TaiwanUniLogo.png"),
-      subHeader: "B.S. in Information and Computer Education",
+      subHeader: "B.S. in Computer Science & Education",
       desc: "Built a foundation in software engineering, systems, and computer science.",
       descBullets: [
         "Co-author, BMC Genomics (journal publication).",
@@ -150,27 +150,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Test Engineer | AI Server & Systems Validation",
+      role: "Test Engineer, AI Server & Systems Validation",
       company: "Hyve Solutions",
       companylogo: require("./assets/images/hyveLogo.png"),
       date: "Jun 2025 – Present",
-      desc: "Validation and integration of AI server platforms in production — across hardware, Linux systems, GPUs, BMC/IPMI interfaces, and test infrastructure.",
+      desc: "AI server platform test in high-volume production — across NPI and sustaining phases, in Fremont, CA.",
       descBullets: [
-        "Support validation and integration of AI server platforms in production environments, diagnosing issues across hardware, Linux systems, GPUs, BMC/IPMI interfaces, and test infrastructure.",
-        "Defined test strategies and improved test flow for new product launches, cutting testing time by 50% and raising first pass yield by 35% through automation check scripts.",
-        "Analyze system logs, production data, and failure patterns to identify root causes, improve platform reliability, and strengthen validation coverage.",
-        "Identified a repair workflow gap and implemented system build tracking within test records, reducing troubleshooting time by approximately 50%.",
-        "Developed Python automation tools and Node.js web applications that streamline operational workflows and improve engineering productivity."
+        "Test AI server platforms in high-volume production across new product introduction (NPI) and sustaining phases, diagnosing issues across hardware, GPUs, Linux, and BMC/IPMI interfaces.",
+        "Perform failure analysis and root cause on system logs, production data, and failure patterns to improve test coverage and platform reliability.",
+        "Develop Python automation and Node.js dashboards for test data collection and visualization, reducing manual steps and errors in test workflows.",
+        "Identified a repair workflow gap and implemented system build and configuration tracking within test records, reducing troubleshooting time by approximately 50%."
+      ]
+    },
+    {
+      role: "Web Developer",
+      company: "Freelance",
+      companylogo: require("./assets/images/freeLancerLogo.png"),
+      date: "2024 – 2025",
+      desc: "End-to-end web development for a greentech business.",
+      descBullets: [
+        "Designed, built, and deployed a company website for a greentech business end to end, owning requirements through launch."
       ]
     },
     {
       role: "IT Audit Associate",
       company: "PricewaterhouseCoopers (PwC)",
       companylogo: require("./assets/images/pwcLogo.png"),
-      date: "2022 – 2023",
-      desc: "IT controls and business systems audit in San Jose, CA.",
+      date: "2021 – 2023",
+      desc: "IT control testing and system audits in San Jose, CA.",
       descBullets: [
-        "Evaluated IT controls and business systems, supporting process analysis and cross-functional coordination."
+        "Conducted IT control testing and system audits, ensuring operational integrity, compliance, and reliability of critical business applications."
       ]
     },
     {
@@ -178,32 +187,32 @@ const workExperiences = {
       company: "Industrial Technology Research Institute (ITRI)",
       companylogo: require("./assets/images/itriLogo.png"),
       date: "2016 – 2018",
-      desc: "Cross-functional technology project coordination.",
+      desc: "Technology program planning and delivery in Taiwan.",
       descBullets: [
-        "Coordinated technology projects involving system integration, requirements definition, and deployment planning."
-      ]
-    },
-    {
-      role: "Test Engineer – Cellular & Wireless Systems",
-      company: "Sawtest Solution",
-      companylogo: require("./assets/images/sawtestLogo.png"),
-      date: "2014 – 2015",
-      desc: "System-level wireless validation and 3GPP conformance testing in Germany.",
-      descBullets: [
-        "Executed system-level validation and protocol conformance testing for 2G, 3G, and 4G wireless devices following 3GPP standards.",
-        "Developed automated test and log-analysis solutions to identify communication issues and improve product reliability."
+        "Led project planning and proposals for AI detection programs across 8 departments and multiple sites, securing $52M in program funding.",
+        "Established CI/CD automation with JIRA, Jenkins, and Docker, cutting development time 10-15%."
       ]
     },
     {
       role: "Test Engineer",
+      company: "Sawtest Solution",
+      companylogo: require("./assets/images/sawtestLogo.png"),
+      date: "2014 – 2015",
+      desc: "Cellular and wireless conformance testing in Germany.",
+      descBullets: [
+        "Designed test flows to 3GPP standards for 2G/3G/4G devices; performed protocol log analysis and debug using Qualcomm QXDM."
+      ]
+    },
+    {
+      role: "Systems Engineer, Manufacturing Systems",
       company: "Taiwan Semiconductor Manufacturing Company (TSMC)",
       companylogo: require("./assets/images/tsmcLogo.png"),
       date: "2012 – 2014",
-      desc: "Automation and monitoring for 24/7 semiconductor manufacturing operations.",
+      desc: "Automation and monitoring for semiconductor manufacturing systems in Taiwan.",
       descBullets: [
-        "Developed Python automation and monitoring solutions supporting manufacturing systems and Linux server infrastructure used by engineering teams.",
-        "Built watchdog and health-monitoring tools integrated with IBM WebSphere and MES environments, tracking CPU, memory, disk utilization, and SQL response performance.",
-        "Improved system reliability from 97% to 99.7% through proactive monitoring, validation, and operational troubleshooting."
+        "Developed Python automation for manufacturing process data analysis, applying statistical process control to reduce defect rates by 10-15% through proactive monitoring.",
+        "Improved system reliability from 97% to 99.7% through proactive monitoring and hands-on troubleshooting of Linux server infrastructure.",
+        "Built Python watchdog and health monitoring tools tracking CPU, memory, disk, and SQL performance across manufacturing systems."
       ]
     },
     {
@@ -211,10 +220,10 @@ const workExperiences = {
       company: "Ubiquiti Networks",
       companylogo: require("./assets/images/ubiquitiLogo.png"),
       date: "2010 – 2012",
-      desc: "Backend automation and validation for wireless networking products.",
+      desc: "Backend services and test automation for wireless networking products in Taiwan.",
       descBullets: [
-        "Developed backend web applications for configuring and managing enterprise wireless networking environments.",
-        "Designed automation and validation frameworks supporting hardware-software integration, system diagnostics, and product reliability."
+        "Built Java and C++ backend services and CI unit testing for WiFi access points, automating data analysis and monitoring.",
+        "Designed software and hardware test plans and validation frameworks supporting hardware and software integration and product reliability."
       ]
     }
   ]
