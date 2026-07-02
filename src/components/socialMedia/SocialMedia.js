@@ -36,8 +36,7 @@ export default function socialMedia() {
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
           className="icon-button google"
-          target="_blank"
-          rel="noopener noreferrer"
+          aria-label="Email"
         >
           <i className="fas fa-envelope"></i>
           <span></span>
